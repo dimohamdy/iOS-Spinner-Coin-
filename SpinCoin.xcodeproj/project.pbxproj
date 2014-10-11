@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D123AE019E87BA900A4D4BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D123ADF19E87BA900A4D4BF /* main.m */; };
+		3D123AE319E87BA900A4D4BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D123AE219E87BA900A4D4BF /* AppDelegate.m */; };
+		3D123AE619E87BA900A4D4BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D123AE519E87BA900A4D4BF /* ViewController.m */; };
+		3D123AE919E87BA900A4D4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D123AE719E87BA900A4D4BF /* Main.storyboard */; };
+		3D123AEB19E87BA900A4D4BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D123AEA19E87BA900A4D4BF /* Images.xcassets */; };
+		3D123AEE19E87BA900A4D4BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D123AEC19E87BA900A4D4BF /* LaunchScreen.xib */; };
+		3D123AFA19E87BAA00A4D4BF /* SliderCoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D123AF919E87BAA00A4D4BF /* SliderCoinTests.m */; };
+		3D123B0419E87C1600A4D4BF /* coin-sprite-animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0319E87C1600A4D4BF /* coin-sprite-animation.png */; };
+		3D123B1019E8919700A4D4BF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0519E8919700A4D4BF /* 1.png */; };
+		3D123B1119E8919700A4D4BF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0619E8919700A4D4BF /* 2.png */; };
+		3D123B1219E8919700A4D4BF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0719E8919700A4D4BF /* 3.png */; };
+		3D123B1319E8919700A4D4BF /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0819E8919700A4D4BF /* 4.png */; };
+		3D123B1419E8919700A4D4BF /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0919E8919700A4D4BF /* 5.png */; };
+		3D123B1519E8919700A4D4BF /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0A19E8919700A4D4BF /* 6.png */; };
+		3D123B1619E8919700A4D4BF /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0B19E8919700A4D4BF /* 7.png */; };
+		3D123B1719E8919700A4D4BF /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0C19E8919700A4D4BF /* 8.png */; };
+		3D123B1819E8919700A4D4BF /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0D19E8919700A4D4BF /* 9.png */; };
+		3D123B1919E8919700A4D4BF /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0E19E8919700A4D4BF /* 10.png */; };
+		3D123B1A19E8919700A4D4BF /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0F19E8919700A4D4BF /* 11.png */; };
+		3D123B1D19E8946800A4D4BF /* silderImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D123B1C19E8946800A4D4BF /* silderImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D123AF419E87BA900A4D4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D123AD219E87BA900A4D4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D123AD919E87BA900A4D4BF;
+			remoteInfo = SliderCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D123ADA19E87BA900A4D4BF /* SpinCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D123ADE19E87BA900A4D4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D123ADF19E87BA900A4D4BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D123AE119E87BA900A4D4BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D123AE219E87BA900A4D4BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D123AE419E87BA900A4D4BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D123AE519E87BA900A4D4BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D123AE819E87BA900A4D4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D123AEA19E87BA900A4D4BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D123AED19E87BA900A4D4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D123AF319E87BA900A4D4BF /* SpinCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D123AF819E87BA900A4D4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D123AF919E87BAA00A4D4BF /* SliderCoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderCoinTests.m; sourceTree = "<group>"; };
+		3D123B0319E87C1600A4D4BF /* coin-sprite-animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coin-sprite-animation.png"; sourceTree = "<group>"; };
+		3D123B0519E8919700A4D4BF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3D123B0619E8919700A4D4BF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3D123B0719E8919700A4D4BF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3D123B0819E8919700A4D4BF /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3D123B0919E8919700A4D4BF /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		3D123B0A19E8919700A4D4BF /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		3D123B0B19E8919700A4D4BF /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		3D123B0C19E8919700A4D4BF /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		3D123B0D19E8919700A4D4BF /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		3D123B0E19E8919700A4D4BF /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		3D123B0F19E8919700A4D4BF /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		3D123B1B19E8946800A4D4BF /* silderImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silderImage.h; sourceTree = "<group>"; };
+		3D123B1C19E8946800A4D4BF /* silderImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = silderImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D123AD719E87BA900A4D4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D123AF019E87BA900A4D4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D123AD119E87BA900A4D4BF = {
+			isa = PBXGroup;
+			children = (
+				3D123ADC19E87BA900A4D4BF /* SliderCoin */,
+				3D123AF619E87BA900A4D4BF /* SliderCoinTests */,
+				3D123ADB19E87BA900A4D4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D123ADB19E87BA900A4D4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D123ADA19E87BA900A4D4BF /* SpinCoin.app */,
+				3D123AF319E87BA900A4D4BF /* SpinCoinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D123ADC19E87BA900A4D4BF /* SliderCoin */ = {
+			isa = PBXGroup;
+			children = (
+				3D123AE119E87BA900A4D4BF /* AppDelegate.h */,
+				3D123AE219E87BA900A4D4BF /* AppDelegate.m */,
+				3D123AE419E87BA900A4D4BF /* ViewController.h */,
+				3D123AE519E87BA900A4D4BF /* ViewController.m */,
+				3D123AE719E87BA900A4D4BF /* Main.storyboard */,
+				3D123B0519E8919700A4D4BF /* 1.png */,
+				3D123B0619E8919700A4D4BF /* 2.png */,
+				3D123B0719E8919700A4D4BF /* 3.png */,
+				3D123B0819E8919700A4D4BF /* 4.png */,
+				3D123B0919E8919700A4D4BF /* 5.png */,
+				3D123B0A19E8919700A4D4BF /* 6.png */,
+				3D123B0B19E8919700A4D4BF /* 7.png */,
+				3D123B0C19E8919700A4D4BF /* 8.png */,
+				3D123B0D19E8919700A4D4BF /* 9.png */,
+				3D123B0E19E8919700A4D4BF /* 10.png */,
+				3D123B0F19E8919700A4D4BF /* 11.png */,
+				3D123B1B19E8946800A4D4BF /* silderImage.h */,
+				3D123B1C19E8946800A4D4BF /* silderImage.m */,
+				3D123AEA19E87BA900A4D4BF /* Images.xcassets */,
+				3D123AEC19E87BA900A4D4BF /* LaunchScreen.xib */,
+				3D123B0319E87C1600A4D4BF /* coin-sprite-animation.png */,
+				3D123ADD19E87BA900A4D4BF /* Supporting Files */,
+			);
+			path = SliderCoin;
+			sourceTree = "<group>";
+		};
+		3D123ADD19E87BA900A4D4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D123ADE19E87BA900A4D4BF /* Info.plist */,
+				3D123ADF19E87BA900A4D4BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D123AF619E87BA900A4D4BF /* SliderCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D123AF919E87BAA00A4D4BF /* SliderCoinTests.m */,
+				3D123AF719E87BA900A4D4BF /* Supporting Files */,
+			);
+			path = SliderCoinTests;
+			sourceTree = "<group>";
+		};
+		3D123AF719E87BA900A4D4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D123AF819E87BA900A4D4BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D123AD919E87BA900A4D4BF /* SpinCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D123AFD19E87BAA00A4D4BF /* Build configuration list for PBXNativeTarget "SpinCoin" */;
+			buildPhases = (
+				3D123AD619E87BA900A4D4BF /* Sources */,
+				3D123AD719E87BA900A4D4BF /* Frameworks */,
+				3D123AD819E87BA900A4D4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinCoin;
+			productName = SliderCoin;
+			productReference = 3D123ADA19E87BA900A4D4BF /* SpinCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D123AF219E87BA900A4D4BF /* SpinCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D123B0019E87BAA00A4D4BF /* Build configuration list for PBXNativeTarget "SpinCoinTests" */;
+			buildPhases = (
+				3D123AEF19E87BA900A4D4BF /* Sources */,
+				3D123AF019E87BA900A4D4BF /* Frameworks */,
+				3D123AF119E87BA900A4D4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D123AF519E87BA900A4D4BF /* PBXTargetDependency */,
+			);
+			name = SpinCoinTests;
+			productName = SliderCoinTests;
+			productReference = 3D123AF319E87BA900A4D4BF /* SpinCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D123AD219E87BA900A4D4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = AhmedHamdy;
+				TargetAttributes = {
+					3D123AD919E87BA900A4D4BF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3D123AF219E87BA900A4D4BF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3D123AD919E87BA900A4D4BF;
+					};
+				};
+			};
+			buildConfigurationList = 3D123AD519E87BA900A4D4BF /* Build configuration list for PBXProject "SpinCoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D123AD119E87BA900A4D4BF;
+			productRefGroup = 3D123ADB19E87BA900A4D4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D123AD919E87BA900A4D4BF /* SpinCoin */,
+				3D123AF219E87BA900A4D4BF /* SpinCoinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D123AD819E87BA900A4D4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D123B1719E8919700A4D4BF /* 8.png in Resources */,
+				3D123B1619E8919700A4D4BF /* 7.png in Resources */,
+				3D123B1119E8919700A4D4BF /* 2.png in Resources */,
+				3D123AE919E87BA900A4D4BF /* Main.storyboard in Resources */,
+				3D123B1819E8919700A4D4BF /* 9.png in Resources */,
+				3D123AEE19E87BA900A4D4BF /* LaunchScreen.xib in Resources */,
+				3D123B0419E87C1600A4D4BF /* coin-sprite-animation.png in Resources */,
+				3D123B1519E8919700A4D4BF /* 6.png in Resources */,
+				3D123B1919E8919700A4D4BF /* 10.png in Resources */,
+				3D123B1319E8919700A4D4BF /* 4.png in Resources */,
+				3D123B1A19E8919700A4D4BF /* 11.png in Resources */,
+				3D123AEB19E87BA900A4D4BF /* Images.xcassets in Resources */,
+				3D123B1419E8919700A4D4BF /* 5.png in Resources */,
+				3D123B1219E8919700A4D4BF /* 3.png in Resources */,
+				3D123B1019E8919700A4D4BF /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D123AF119E87BA900A4D4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D123AD619E87BA900A4D4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D123AE619E87BA900A4D4BF /* ViewController.m in Sources */,
+				3D123AE319E87BA900A4D4BF /* AppDelegate.m in Sources */,
+				3D123B1D19E8946800A4D4BF /* silderImage.m in Sources */,
+				3D123AE019E87BA900A4D4BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D123AEF19E87BA900A4D4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D123AFA19E87BAA00A4D4BF /* SliderCoinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D123AF519E87BA900A4D4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D123AD919E87BA900A4D4BF /* SpinCoin */;
+			targetProxy = 3D123AF419E87BA900A4D4BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D123AE719E87BA900A4D4BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D123AE819E87BA900A4D4BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D123AEC19E87BA900A4D4BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D123AED19E87BA900A4D4BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D123AFB19E87BAA00A4D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D123AFC19E87BAA00A4D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D123AFE19E87BAA00A4D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliderCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SpinCoin;
+			};
+			name = Debug;
+		};
+		3D123AFF19E87BAA00A4D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliderCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SpinCoin;
+			};
+			name = Release;
+		};
+		3D123B0119E87BAA00A4D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SliderCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SpinCoinTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderCoin.app/SliderCoin";
+			};
+			name = Debug;
+		};
+		3D123B0219E87BAA00A4D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SliderCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SpinCoinTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderCoin.app/SliderCoin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D123AD519E87BA900A4D4BF /* Build configuration list for PBXProject "SpinCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D123AFB19E87BAA00A4D4BF /* Debug */,
+				3D123AFC19E87BAA00A4D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D123AFD19E87BAA00A4D4BF /* Build configuration list for PBXNativeTarget "SpinCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D123AFE19E87BAA00A4D4BF /* Debug */,
+				3D123AFF19E87BAA00A4D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D123B0019E87BAA00A4D4BF /* Build configuration list for PBXNativeTarget "SpinCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D123B0119E87BAA00A4D4BF /* Debug */,
+				3D123B0219E87BAA00A4D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D123AD219E87BA900A4D4BF /* Project object */;
+}
