@@ -13,7 +13,6 @@
 		3D123AE919E87BA900A4D4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D123AE719E87BA900A4D4BF /* Main.storyboard */; };
 		3D123AEB19E87BA900A4D4BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D123AEA19E87BA900A4D4BF /* Images.xcassets */; };
 		3D123AEE19E87BA900A4D4BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D123AEC19E87BA900A4D4BF /* LaunchScreen.xib */; };
-		3D123AFA19E87BAA00A4D4BF /* SliderCoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D123AF919E87BAA00A4D4BF /* SliderCoinTests.m */; };
 		3D123B0419E87C1600A4D4BF /* coin-sprite-animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0319E87C1600A4D4BF /* coin-sprite-animation.png */; };
 		3D123B1019E8919700A4D4BF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0519E8919700A4D4BF /* 1.png */; };
 		3D123B1119E8919700A4D4BF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D123B0619E8919700A4D4BF /* 2.png */; };
@@ -51,8 +50,6 @@
 		3D123AEA19E87BA900A4D4BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3D123AED19E87BA900A4D4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3D123AF319E87BA900A4D4BF /* SpinCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D123AF819E87BA900A4D4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D123AF919E87BAA00A4D4BF /* SliderCoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderCoinTests.m; sourceTree = "<group>"; };
 		3D123B0319E87C1600A4D4BF /* coin-sprite-animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coin-sprite-animation.png"; sourceTree = "<group>"; };
 		3D123B0519E8919700A4D4BF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		3D123B0619E8919700A4D4BF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
@@ -91,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				3D123ADC19E87BA900A4D4BF /* SliderCoin */,
-				3D123AF619E87BA900A4D4BF /* SliderCoinTests */,
 				3D123ADB19E87BA900A4D4BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,23 +135,6 @@
 			children = (
 				3D123ADE19E87BA900A4D4BF /* Info.plist */,
 				3D123ADF19E87BA900A4D4BF /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3D123AF619E87BA900A4D4BF /* SliderCoinTests */ = {
-			isa = PBXGroup;
-			children = (
-				3D123AF919E87BAA00A4D4BF /* SliderCoinTests.m */,
-				3D123AF719E87BA900A4D4BF /* Supporting Files */,
-			);
-			path = SliderCoinTests;
-			sourceTree = "<group>";
-		};
-		3D123AF719E87BA900A4D4BF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D123AF819E87BA900A4D4BF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -283,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D123AFA19E87BAA00A4D4BF /* SliderCoinTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +444,7 @@
 				3D123AFF19E87BAA00A4D4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D123B0019E87BAA00A4D4BF /* Build configuration list for PBXNativeTarget "SpinCoinTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +453,7 @@
 				3D123B0219E87BAA00A4D4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
